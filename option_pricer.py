@@ -52,6 +52,7 @@ def Black_Scholes(S, T, r, sigma):
     d2 = d1-sigma*math.sqrt(T)
     return S*norm.cdf(d1)-math.exp(-r*T)*norm.cdf(d2)
 
+# Replace location name in quotes with location of file on your device
 df = pd.read_csv('data.csv')
 
 df["Stock Price"] = df["Stock Price"]/df["Strike Price"]
