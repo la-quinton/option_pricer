@@ -1,7 +1,7 @@
 # Neural Network Option Pricer
 Quinton La
 
-Technology used:
+Technologies used:
   - Python
   - Pandas
   - TensorFlow
